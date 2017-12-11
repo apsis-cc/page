@@ -26,13 +26,9 @@ function demo() {
     }
 
     $("#colour").change(function () {
-
         if ($(this).val() !== '') {
-
             var theme_csspath = 'css/style.' + $(this).val() + '.css';
-
             $('link#theme-stylesheet').attr("href", theme_csspath);
-
             $.cookie("theme_csspath", theme_csspath, {expires: 365, path: '/'});
         }
 

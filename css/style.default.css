@@ -1,10 +1,10 @@
-/* 
-========================================= 
-========================================= 
+/*
+=========================================
+=========================================
 
-Startup Template By Bootstrapious.com 
+Startup Template By Bootstrapious.com
 
-========================================= 
+=========================================
 ========================================= */
 /* variant 4 - red */
 /*
@@ -27,8 +27,8 @@ header {
 }
 section {
   position: relative;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 section.background-gray-lighter {
   background: #cdcdcd;
@@ -110,7 +110,7 @@ section.background-secondary {
 }
 .padding--small {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .weight-300 {
   font-weight: 300 !important;
@@ -386,6 +386,7 @@ CUSTOMERS
   text-align: center;
 }
 .customer img {
+  height: 128px;
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
