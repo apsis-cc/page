@@ -1,10 +1,4 @@
 # Rafael Dutra
-sudo: required
-
-branches:
-  only:
-  - develop
-
 deploy:
   name: "deployed.cloud page deployment"
   provider: pages
