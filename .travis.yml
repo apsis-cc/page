@@ -8,7 +8,6 @@ branches:
 deploy:
   name: "deployed.cloud page deployment"
   provider: pages
-  local_dir: page
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
