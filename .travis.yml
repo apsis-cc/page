@@ -2,7 +2,8 @@
 deploy:
   name: "deployed.cloud page deployment"
   provider: pages
-  skip_cleanup: true
+  skip_cleanup: false
+  local_dir: page
   github_token: $GITHUB_TOKEN
   keep_history: true
   verbose: true
