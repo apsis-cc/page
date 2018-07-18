@@ -1,8 +1,21 @@
 # Rafael Dutra
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+  - develop
+
+script:
+  - ls -la
+
+# Rafael Dutra
 deploy:
   name: "deployed.cloud page deployment"
   provider: pages
-  skip_cleanup: false
+  skip_cleanup: true
   local_dir: page
   github_token: $GITHUB_TOKEN
   keep_history: true
