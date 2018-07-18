@@ -1,0 +1,19 @@
+# Rafael Dutra
+sudo: required
+
+branches:
+  only:
+  - develop
+
+deploy:
+  name: "deployed.cloud page deployment"
+  provider: pages
+  local_dir: public
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  verbose: true
+  target_branch: master
+  on:
+    branch: develop
+  fqdn: deployed.cloud
