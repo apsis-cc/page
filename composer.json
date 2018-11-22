@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tightenco/jigsaw": "v1.2.8"
+    }
+}

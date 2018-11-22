@@ -8,9 +8,6 @@ branches:
   only:
   - develop
 
-script:
-  - ls -la
-
 # Rafael Dutra
 deploy:
   name: "deployed.cloud page deployment"
